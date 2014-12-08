@@ -1,0 +1,61 @@
+/*
+==============================================================
+Include file 
+=============================================================
+*/
+
+var INC_JS_JQUERY         = (1<<0);		//000000001
+var INC_JS_JSON           = (1<<1);   	//000000010
+var INC_JS_COMMON         = (1<<2);		//000000100
+var INC_JS_FUNC           = (1<<3);   	//000001000
+var INC_HTML_CFG          = (1<<4);  	//001000000
+var INC_CSS               = (1<<5);   	//000010000
+var INC_HTML_BOARD_CONFIG = (1<<6);   	//010000000
+var INC_HTML_PRODUCT_INFO = (1<<7);   	//100000000
+
+var INC_ADV_PAGE             = INC_JS_JQUERY | INC_JS_JSON| INC_JS_COMMON| INC_JS_FUNC | INC_HTML_CFG | INC_CSS;
+var INC_COMMON_BOARD         = INC_JS_JQUERY | INC_JS_JSON| INC_JS_COMMON| INC_JS_FUNC | INC_HTML_CFG | INC_CSS |INC_HTML_BOARD_CONFIG;
+var INC_COMMON_PRODUCT       = INC_JS_JQUERY | INC_JS_JSON| INC_JS_COMMON| INC_JS_FUNC | INC_HTML_CFG | INC_CSS |INC_HTML_PRODUCT_INFO;
+var INC_COMMON_BOARD_PRODUCT = INC_JS_JQUERY | INC_JS_JSON| INC_JS_COMMON| INC_JS_FUNC | INC_HTML_CFG | INC_CSS |INC_HTML_BOARD_CONFIG |INC_HTML_PRODUCT_INFO;
+var INC_BASIC_PAGE           = INC_JS_JQUERY | INC_JS_JSON| INC_JS_COMMON| INC_CSS ;
+
+var INC_JS_TBL=[
+   {idx:INC_JS_JQUERY   ,src:"js/jquery.min.js"			},
+   {idx:INC_JS_JSON     ,src:"js/jquery.json.js"			},
+   {idx:INC_JS_COMMON   ,src:"common.htm"					},
+   {idx:INC_JS_FUNC     ,src:"functionjs.htm"				}
+];
+var INC_CSS_TBL=[
+   {idx:INC_CSS       	 ,src:"setcss.css"					}
+];
+
+var INC_HTML_TBL=[
+   {idx:INC_HTML_CFG      		,src:"flag.htm"			},
+   {idx:INC_HTML_BOARD_CONFIG	,src:"board_config.htm"	},
+   {idx:INC_HTML_PRODUCT_INFO	,src:"product_info.htm"	}
+];
+
+function dw(str)
+{
+   document.write(str+'<br>');
+}
+function IncJs(obj)
+{
+   var INC_LIST=0, GROUP=0;
+   for(var x in obj)
+   {
+   if(x=="init")	{
+      INC_LIST = obj[x];
+   }
+   }
+   alert( INC_CSS_TBL.length );
+   Include
+}
+function myConcat( arg )
+{
+   var result = "";
+   for( var i= 1; i < arguments.length; i++ ) {
+      result += arguments[i] + arg;
+   }
+   return result;
+}

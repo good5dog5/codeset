@@ -1,0 +1,5 @@
+version=3
+
+opts=downloadurlmangle=s/prdownload/download/ \
+http://developer.berlios.de/project/showfiles.php?group_id=1824 \
+http://prdownload.berlios.de/fetchmail/fetchmail-(.*)\.tar\.bz2
