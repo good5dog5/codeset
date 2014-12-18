@@ -1,0 +1,11 @@
+!c/**/*.c
+!c/**/*test
+!c/**/Makefile
+!**/**/gen_ignore.sh
+
+!cpp/**/*.cpp
+!cpp/**/*test*
+!cpp/**/.*
+
+web/**/*~
+
