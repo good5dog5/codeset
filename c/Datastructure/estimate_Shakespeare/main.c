@@ -48,39 +48,22 @@ void addWord( char * s)
    
    wordEnd->nPtr = createWordNode(s);
 }
-void addWord_v2( char * s)
+word * search(char * s)
 {
-   word * wordStart = NULL;
-   word * wordEnd   = NULL;
+   word * start   = head;
+   word * current = NULL;
 
-   if(head == NULL)
+   while(start != NULL )
    {
-      head = createWordNode(s);
-      return;
-   }
-   
-   wordStart = head;
+      current = start;
 
-   while(wordStart != NULL)
-   {
-      if(strcmp(wordStart->aword, s) == 0)
-      {
-         wordStart->cnt++;
-         return;
-      }
-      else if(strcmp(wordStart->aword, s) > 0)
-      {
-         word * tmp = wordStart->nPtr;
-         wordStart = createWordNode(s);
-         wordStart->nPtr = tmp;
+      if( strcmp(s, start->aword) <= 0 || 
+          (start->nPtr != NULL && strcmp(s, start->nPtr->aword) < 0))
+         return current;
 
-         return;
-      }
-      wordEnd = wordStart;
-      wordStart = wordStart->nPtr;
+      start = start->nPtr;
    }
-   
-   wordEnd->nPtr = createWordNode(s);
+   return current;
 }
 void print(word * head)
 {
@@ -90,20 +73,50 @@ void print(word * head)
       head = head->nPtr;
    }
 }
+void addWord2(char * str)
+{
+      word * preWord = NULL;
+      word * tmpWord = NULL;
+
+      if(head == NULL) { head = createWordNode(str); return; }
+
+      preWord = search(str);
+
+      if(strcmp(str, preWord->aword) == 0)
+      {
+         preWord->cnt++;
+         return;
+      }
+      if(preWord == head)
+      {
+         tmpWord = head;
+         head = createWordNode(str);
+         head->nPtr = tmpWord;
+         return;
+      }
+      if(preWord->nPtr != NULL)
+      {
+         tmpWord = preWord->nPtr;
+         preWord->nPtr = createWordNode(str);
+         preWord->nPtr->nPtr = tmpWord;
+         return;
+      }
+      preWord->nPtr = createWordNode(str);
+}
 
 int main(void)
 {
    char str[25];
    int cnt = 0;
 
+
    while( scanf("%s", str) != EOF)
    {
-      addWord_v2(str);
+      //addWord2(str);
+      addWord(str);
    }
    print(head);
-   puts("");
-
-
+   puts("\n\n");
    return 0;
 }
 
