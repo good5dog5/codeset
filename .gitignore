@@ -2,10 +2,12 @@
 !c/**/*test
 !c/**/Makefile
 !**/**/gen_ignore.sh
+**/**/*.o
 
 !cpp/**/*.cpp
 !cpp/**/*test*
 !cpp/**/.*
+**/**/*.o
 
 web/**/*~
 
