@@ -12,3 +12,4 @@ word * search(word ** head, char * s);
 void print(word * head);
 void addWord2(word ** head, char * str);
 char * correctString(const char * str);
+char * testifok(char * at);

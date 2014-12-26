@@ -49,8 +49,6 @@ flags = [
 # relevant for c++ headers.
 # For a C project, you would set this to 'c' instead of 'c++'.
 'c',
-'-I',
-'./*',
 '-isystem',
 '/Library/Developer/CommandLineTools/usr/include',
 '-isystem',
@@ -58,7 +56,9 @@ flags = [
 '-isystem',
 '/usr/include',
 '-isystem',
-'/usr/include/i386-linux-gnu'
+'/usr/include/i386-linux-gnu',
+'-I', '.',
+'-I', './include'
 ]
 
 

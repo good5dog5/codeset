@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<ctype.h>
 #include<string.h>
-#include"linklist.h"
+#include"include/linklist.h"
 
 word * createWordNode(char * str)
 {
