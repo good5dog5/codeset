@@ -50,13 +50,15 @@ flags = [
 # For a C project, you would set this to 'c' instead of 'c++'.
 'c',
 '-I',
-'/home/jordan/Documents/github/code_set/unpv13e/libfree/',
+'/home/jordan/Documents/codeset/unp13e/libfree',
 '-I',
-'/home/jordan/Documents/github/code_set/unpv13e/lib/',
+'/home/jordan/Documents/codeset/unpv13e/lib/',
 '-isystem',
 '/Library/Developer/CommandLineTools/usr/include',
 '-isystem',
-'/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1'
+'/Library/Developer/CommandLineTools/usr/bin/../lib/c++/v1',
+'-isystem',
+'/usr/include'
 ]
 
 
