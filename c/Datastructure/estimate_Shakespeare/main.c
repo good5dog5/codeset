@@ -10,7 +10,7 @@
 int main(void)
 {
    char inputStream[25];
-   char * str;
+   char * str = NULL;
 
    word * head  = NULL;
    tNode * root = NULL;
@@ -19,12 +19,11 @@ int main(void)
    while( scanf("%s", inputStream) != EOF)
    {
       str = correctString(inputStream);
-      if(strlen(str)==0) continue;
-      //addWord2(&head, str);
+      if(strlen(str) == 0 ) continue;
       root = addtree(root, str);
    }
    numWordroot = traverse(root, numWordroot);
-   treeprint(numWordroot);
+   //treeprint(numWordroot);
    //print(head);
    return 0;
 }

@@ -3,7 +3,7 @@
 !c/**/Makefile
 !**/**/gen_ignore.sh
 **/**/*.o
-**/**/*.ycm
+**/**/*.ycm*
 
 !cpp/**/*.cpp
 !cpp/**/*test*
