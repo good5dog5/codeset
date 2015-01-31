@@ -2,5 +2,9 @@
 vector2
 bt
 bt_order
+.ycm*
 uva_514
 vector
+gen_ignore.sh
+bt_order
+a.out
