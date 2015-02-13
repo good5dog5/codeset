@@ -8,3 +8,13 @@ vector
 gen_ignore.sh
 bt_order
 a.out
+a.out
+vector2
+grep_str
+bt
+gen_ignore.sh
+bt_order
+remap_lang/a.out
+uva_514
+lang.h
+vector

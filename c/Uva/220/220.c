@@ -8,10 +8,6 @@ int  target[9][9] = {0};
 int  direct[8][2] = { {-1, -1}, {0, -1}, {1, -1}, {1, 0}, {1, 1}, {0, 1}, {-1, 1}, {-1, 0} };
 int  oppside[8] = { 4, 5, 6, 7, 0, 1, 2, 3};
 
-bool isOutBoard(int x, int y)
-{
-   return ((x > 8 || y > 8) || (x < 1 || y < 1));
-}
 void gen_legal_move(char player)
 {
    char opponent = (player == 'W') ? 'B' : 'W';
@@ -22,104 +18,125 @@ void gen_legal_move(char player)
 
    for(x = 1; x <=8; x++) {
       for( y = 1; y <= 8; y++) {
+         int i;
+         for( i = 0; i < 8; i++) {
 
-         if( board[x][y] == opponent ) {
+            int tx = x + direct[i][0];
+            int ty = y + direct[i][1];
+            bool legal = false;
 
-            int i;
-            for( i = 0; i < 8; i++) {
+            while(x >= 1 && x <= 8 && y >= 1 && y <= 8) {
+               if( board[tx][ty] == '-' ) 
+                  break;
 
-               int now_x = x + direct[i][0];
-               int now_y = y + direct[i][1];
-               bool legal = false;
-
-               while(1) {
-                  if( isOutBoard(now_x, now_y) || board[now_x][now_y] == '-' ) {
-                     break;
-                  } 
-
-                  if( board[now_x][now_y] == opponent) {
-                     now_x = now_x + direct[i][0];
-                     now_y = now_y + direct[i][1];
-                     continue;
-                  }
-                  if( board[now_x][now_y] == player ) {
-                     legal = true;
-                     break;
-                  }
+               if( board[no]) {
+                  tx = tx + direct[i][0];
+                  ty = ty + direct[i][1];
+                  continue;
                }
-               if(legal) {
-                  int legal_x = x + direct[oppside[i]][0];
-                  int legal_y = y + direct[oppside[i]][1];
-                  target[legal_x][legal_y] = 1;
+               if( board[tx][ty] == player ) {
+                  legal = true;
+                  break;
                }
             }
+            if(legal) {
+               int legal_x = x + direct[oppside[i]][0];
+               int legal_y = y + direct[oppside[i]][1];
+               target[legal_x][legal_y] = 1;
+            }
+         }
          }
       }
-   }
 }
 void list_legal_move(char player)
 {
-   int x, y;
+   int x, y, cnt = 0;
    gen_legal_move(player);
 
    for(x=1; x<=8; x++)
       for(y=1; y<=8; y++)
-         if(target[x][y] == 1)
+         if(target[x][y] == 1) {
             printf("(%d,%d) ", x, y);
-
+            cnt++;
+         }
    printf("\n");
+
+   if(cnt == 0)
+      printf("No legal move.\n");
+
 }
 char make_move(int x, int y, char player)
 {
-   gen_legal_move(player);
-   
-/*   int a,b;
-   for(a=1; a<=8; a++) {
-      for(b=1; b<=8; b++) {
-         printf("%d",target[a][b]);
+again:
+   board[x][y] = player;
+
+   int valid = 0, i, j ;
+
+   for(i=0; i<8; i++) {
+
+      int tx = x + direct[i][0];
+      int ty = y + direct[i][1];
+      int ok = 0;
+
+      while(tx >= 1 && tx <= 8 && ty >= 1 && ty <= 8) {
+
+         if(board[tx][ty] == '-')
+            break;
+
+         if(board[tx][ty] == 'W' && player == 'W')
+            {ok |= 2; break;}
+
+         if(board[tx][ty] == 'B' && player == 'B')
+            {ok |= 2; break;}
+
+         ok |= 1;
+         tx += direct[i][0], ty += direct[i][1];
       }
-      printf("\n");
-   }
-   printf("\n");
-   printf("%d %d\n", x, y );
-*/   
-   
 
-   char opponent = (player=='W') ? 'B' : 'W';
-   char next;
-   
-   if(target[x][y] == 0) {
-      printf("Player %c no legal move, change to %c\n", player, opponent );
-      board[x][y] = opponent;
-      next = player;
-   }
-   else {
+      if(ok == 3) {
+         
+         valid = 1;
+         tx = x + direct[i][0], ty = y + direct[i][1];
 
-      board[x][y] = player;
-      next = opponent;
-   }
+         while(tx >= 1 && tx <= 8 && ty >= 1 && ty <= 8) {
 
-   int i, j, W_cnt = 0, B_cnt= 0;
+            if(board[tx][ty] == '-')
+               break;
 
-   for(i=1; i<=8; i++) 
-      for(j=1; j<=8; j++) 
-      {
-         if(board[i][j] == 'W') W_cnt++;
-         else if (board[i][j] == 'B') B_cnt++;
+            if(board[tx][ty] == 'W' && player == 'W')
+               break;
+
+            if(board[tx][ty] == 'B' && player == 'B')
+               break;
+
+            board[tx][ty] = player;
+            tx += direct[i][0], ty += direct[i][1];
+         }
       }
-   printf("Black - %d White - %d\n", B_cnt, W_cnt);
+   }
+   player = (player == 'W') ? 'B' : 'W';
+   if( valid == 0) goto again;
 
-   return next;
+   int w_cnt = 0, b_cnt = 0;
+
+   for(i=1; i<= 8; i++) {
+      for(j=1; j<=8; j++) {
+         if(board[i][j] == 'B') b_cnt++;
+         if(board[i][j] == 'W') w_cnt++;
+      }
+   }
+
+   printf("Black -%3d White -%3d\n", b_cnt, w_cnt);
+   return player;
 }
 void print_board(void)
 {
    int x, y;
    
-   for(x=1; x<=8; x++) {
+   for(x=1; x<=8; x++, printf("\n")) {
       for(y=1; y<=8; y++) {
          printf("%c", board[x][y]);
       }
-      printf("\n");
    }
    printf("\n");
 }
@@ -128,46 +145,36 @@ void print_board(void)
 
 int main(void)
 {
+   int  round = 0;
    char player;
-   char option;
-   int round = 0;
-
    scanf("%d", &round);
+
    while(round--) {
+      printf("%d\n", round);
 
-      char c, d;
+      int cnt;
+      char cmd[10];
 
-      int row = 0, col = 0;
-      for(row = 1; row <= 8; row++) {
-         for(col = 1; col <= 8; col++) {
+      for(cnt=1; cnt<=8; cnt++)
+         scanf("%s", board[cnt]+1);
 
-            c = getchar();
-            if( c == '\n' ) c = getchar();
-            board[row][col] = c;
-         }
-      }
-      while((c=getchar()) == '\n' ) continue;
-      player = c;
-      while((c=getchar()) == '\n' ) continue;
-      option = c;
+      scanf("%s", cmd);
+      player = cmd[0];
 
-      while(option != 'Q') {
-         int x = 0, y = 0;
+      while(scanf("%s", cmd) == 1) {
+         //printf("%s  ", cmd);
          
-         if(option == 'L')
+         if(cmd[0] == 'L')
             list_legal_move(player);
 
-         else {
-
-            c = getchar();
-            d = getchar();
-            x = c - 48;
-            y = d - 48;
-            
+         if(cmd[0] == 'M') {
+            int x = cmd[1] - '0';
+            int y = cmd[2] - '0';
             player = make_move(x, y, player);
          }
-         while((c=getchar()) == '\n' ) continue;
-         option = c;
+
+         if(cmd[0] == 'Q')
+            break;
       }
       print_board();
    }
