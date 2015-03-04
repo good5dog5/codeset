@@ -4,11 +4,11 @@ enum{ B=0, G=1, C=2};
 
 int main(void)
 {
-   int binColor[][3] = {{B,G,C}, {B,C,G},
-                        {G,B,C}, {G,C,B},
-                        {C,B,G}, {C,G,B} };
+   int binColor[][3] = { {B,C,G}, {B,G,C},
+                         {C,B,G}, {C,G,B},
+                         {G,B,C}, {G,C,B}};
 
-   char pattern[][4] = { "BGC", "BCG", "GBC", "GCB", "CBG", "CGB" };
+   char pattern[][4] = { "BCG", "BGC", "CBG", "CGB", "GBC", "GCB" };
    int bin[3][3];
 
    while(scanf("%d%d%d %d%d%d %d%d%d", 
@@ -39,7 +39,7 @@ int main(void)
          }
       }
 
-      printf("%s %d %d\n", pattern[minIdx], minMove, minIdx);
+      printf("%s %d\n", pattern[minIdx], minMove);
    }
    return 0;
 

@@ -1,0 +1,2005 @@
+﻿Home
+Wizard
+Wireless
+Firewall
+Advanced Settings
+Access Point
+Managed AP
+Status
+LAN
+Managed AP Group
+Internet
+Dashboard
+NMS Monitor
+Zone Plan
+System
+Model
+Uptime
+Rogue Devices
+WLAN
+Version
+Half hour
+One hour
+Two hours
+Half day
+One day
+Two days
+One week
+Two weeks
+Forever
+The IP address has been changed. Reconnect with the new IP address.
+Invalid domain name.
+IP Address
+DHCP Client Starting IP Address
+Invalid starting IP address.
+DHCP Client Ending IP Address
+Invalid DHCP client ending IP address.
+Invalid DHCP client IP address range.\nEnding IP address should be greater than starting IP address.
+Active WLAN
+Subnet Mask
+Disabled
+Enabled
+Lease Time
+DHCP Server
+Starting IP Address
+Ending IP Address
+Domain Name
+Apply
+Cancel
+Active WLAN Group
+Active Clients
+Channel
+All Events/Activities
+Security
+Disable
+Monitoring
+NMS Settings
+Zone Edit
+Firmware Upgrade
+MAC Address
+Local Settings
+Administer
+Default Gateway
+Local Network
+LAN Port Settings
+Toolbox
+Network Connectivity
+Refresh
+Operation Mode
+Save
+Clear
+Ping
+Trace Route
+AP Mode
+Router Mode
+Repeater Mode
+AP Controller Mode
+Enable
+Basic
+Advanced
+Security
+Guest Network
+Managed AP mode
+
+Band
+
+Site Survey
+
+Enable
+Disable
+
+Authentication Type
+This table shows the assigned IP address, MAC address and expiration time for each DHCP leased client.
+Expiration Time
+
+Broadcast SSID
+
+
+None
+Protection
+Enter an SSID.
+
+Invalid key length.
+The hexadecimal key may contain alphanumeric characters from 0-9 and a-f.
+The hexadecimal key may contain alphanumeric characters from 0-9 and a-f.
+The pre-shared key should contain at least 8 alphanumeric characters.
+The pre-shared key should contain no more than 64 alphanumeric characters.
+
+Encryption
+Key Length
+Key Type
+Default Key
+Key
+WPA Type
+Characters
+
+Primary RADIUS Server
+Authentication Port
+Password
+
+MAC Address Filtering Table
+
+Select
+Delete Selected
+Delete All
+Reset
+Enable Wireless Access Control
+
+Add
+Clone
+
+
+
+
+
+
+
+Static IP Address
+
+
+
+
+
+
+
+
+
+
+
+
+seconds
+
+
+The MAC address should contain 12 hexadecimal characters (0-9 and a-f).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Invalid URL.
+
+
+
+
+
+
+
+
+
+Type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SSID
+
+
+
+
+
+
+Password
+
+
+
+
+
+
+
+
+
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+
+
+
+
+From
+To
+
+Select a file.
+Continue?
+During the update, the product will be unresponsive for about a minute.  Please do not turn off or unplug the product.
+
+
+
+All settings will be reset to their factory defaults, including the IP address. Continue?
+System Settings
+Save Settings
+Restore Settings
+This will restore all settings to factory defaults.
+Restore
+The product's IP address may change after the reboot. Reboot now?
+It will take about a minute to restart the product. Please do not unplug or turn off the product until it has finished rebooting.
+This will reboot the product. Your settings will not be changed. Click \
+System Security
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Previous
+
+
+
+
+Idle Time
+
+
+
+
+
+
+
+
+
+
+Product Name
+
+
+
+
+
+
+
+
+
+
+WPS
+
+
+WPS Status
+
+
+
+
+WPS by PIN
+Push-button WPS
+
+
+Start
+
+SSID
+Authentication Method
+Encryption Type
+
+Product PIN
+
+
+
+
+
+
+
+
+
+Invalid IP address.
+The LAN-side IP address is
+
+
+
+
+
+
+On
+Off
+
+
+
+
+
+
+Description
+Cannot add new entry because the table is full.
+Delete selected entry?
+Delete all entries?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This field cannot be empty.
+
+
+
+
+
+
+
+
+
+WDS Functionality
+
+
+
+
+
+Reboot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MAC address error
+
+
+
+
+seconds.
+
+
+Encryption method
+
+
+
+
+
+High speed
+LAN-side IP Address
+802.1D Spanning Tree
+
+
+
+
+%s value is wrong.
+%s value is wrong.
+%s value is wrong.
+%s value is wrong.
+%s value is wrong.
+
+
+
+
+
+
+
+
+
+
+
+Select at least one day.
+Invalid time range.
+Start Hour
+End Hour
+Start Minute
+End Minute
+You can start and stop services on the schedule page. Services will start and stop as scheduled in the table below.
+Schedule
+Power Saving
+Days
+Every Day
+Time of day
+All Day (use 24-hour clock)
+WLAN Client Table
+
+Signal
+
+
+Enable Static DHCP IP
+Current Static DHCP Table
+
+
+
+
+
+
+
+You must select at least one entry!
+You can select only one entry.
+Enabled Schedule Table (up to 8)
+Schedule
+
+
+
+
+
+
+
+Account to Manage This Device
+
+
+
+
+
+
+Time Zone
+NTP Time Server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Priority
+Flow Control
+
+
+
+
+Login
+
+
+
+
+
+
+
+
+
+
+
+ID
+Fragment Threshold
+RTS Threshold
+Beacon Interval
+DTIM Period
+
+Pre-shared
+Wireless
+Enter an encryption key.
+
+RADIUS Server Address
+The pre-shared key should contain 64 characters.
+SSID
+Open
+Shared Key
+RADIUS Server
+
+
+
+
+
+
+
+
+
+
+
+
+Invalid PIN.
+
+Push the WPS button within 2 minutes.
+
+Edit
+
+
+
+
+
+
+
+
+
+Invalid hostname.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Communication between wireless clients
+Communication between wireless clients and wired clients
+
+
+
+
+
+
+Clients
+MAC Filter
+
+
+
+
+
+
+Time
+
+
+
+
+
+
+
+
+
+
+
+Auto
+
+
+
+
+
+
+Auto Channel
+
+Preamble Type
+Channel Bandwidth
+
+
+
+
+Tx Power
+WPA-PSK
+
+64-bit
+128-bit
+
+
+
+
+
+
+
+
+
+
+
+Auto Channel Interval
+Configured
+Not Configured
+WPA2-PSK
+WPA/WPA2-PSK
+
+
+
+
+
+
+
+Invalid IP address.
+Invalid subnet mask.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Settings
+
+
+
+
+or wait for timeout.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The filename should be *.bin.
+Full
+
+
+
+Low
+High
+
+
+
+Multicast
+
+
+
+Release
+
+
+DNS Servers
+
+Primary DNS Server
+Secondary DNS Server
+
+User-Defined
+
+None
+
+
+
+
+
+Refresh
+Factory Default
+
+Passphrase
+
+Start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hex
+
+
+Configuration is complete. Reloading now...
+Initializing...
+Recovery is complete. Rebooting now...
+Rebooting...
+Wait for connection,
+Wait for disconnection,
+Wait for renew,
+Firmware updated. Rebooting now...
+
+
+Please wait for
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WDS
+
+
+
+
+
+Eniwetok, Kwajalein, International Date Line West
+Midway Island, Samoa
+Hawaii
+Alaska
+Pacific Time (US & Canada); Tijuana
+Arizona
+Chihuahua, La Paz, Mazatian
+Mountain Time (US & Canada)
+Central America
+Central Time (US & Canada)
+Guadalajara, Mexico City, Monterrey
+Saskatchewan
+Bogota, Lima, Quito
+Eastern Time (US & Canada)
+Indiana (East)
+Atlantic Time (Canada)
+Caracas, La Paz
+Santiago
+Newfoundland
+Brasilia
+Buenos Aires, Georgetown
+Greenland
+Mid-Atlantic
+Azores
+Cape Verde Is.
+Casablanca, Monrovia
+Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London
+Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
+Belgrade, Bratislava, Budapest, Ljubljana, Prague
+Brussels, Copenhagen, Madrid, Paris
+Sarajevo, Sofija, Warsaw, Zagreb, Skopje, Vilnius
+West Central Africa
+Athens, Istanbul, Minsk
+Bucharest
+Cairo
+Harare, Pretoria
+Helsinki, Riga, Tallinn
+Jerusalem
+Baghdad
+Kuwait, Riyadh
+Moscow, St. Petersburg, Volgograd
+Nairobi
+Tehran
+Abu Dhabi, Muscat
+Baku, Tbilisi, Yerevan
+Kabul
+Ekaterinburg
+Islamabad, Karachi, Tashkent
+Calcutta, Chennai, Mumbai, New Delhi
+Kathmandu
+Almaty, Novosibirsk
+Astana, Dhaka
+Sri, Jayawardenepura
+Rangoon
+Bangkok, Hanoi, Jakarta
+Krasnoyarsk
+Beijing,  Hong Kong
+Irkutsk, Ulaan Bataar
+Kuala Lumpur, Singapore
+Perth
+Taipei, Taiwan
+Osaka, Sapporo, Tokyo
+Seoul
+Yakutsk
+Adelaide
+Darwin
+Brisbane
+Canberra, Melbourne, Sydney
+Guam, Port Moresby
+Hobart
+Vladivostok
+Magadan, Solamon, New Caledonia
+Auckland, Wllington
+Fiji, Kamchatka, Marshall Is.
+Nuku\'alofa
+
+
+
+
+
+WEP
+WPA-EAP
+Mon
+Tue
+Wed
+Thu
+Fri
+Sat
+Sun
+
+
+WLAN
+
+
+
+
+Username
+
+A space is not a valid entry for %s.
+
+Input value is out of range. Please check the input range of each setting.
+Input value is out of range. Please check the input range of each setting.
+Input value is out of range. Please check the input range of each setting.
+Invalid port range. The first port value should be less than the second port value.
+Invalid MAC address. First byte should be an even number.
+The %s should be on the same subnet as the LAN-side IP address.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+all time
+
+
+
+
+
+
+
+
+
+
+
+
+#
+
+
+
+
+
+
+
+
+
+DNS
+
+Invalid PIN.
+
+LAN-Side IP Address
+
+
+
+
+The IP address is the same as LAN IP address.
+Client IP Address
+Table is full.
+
+Subnet mask is invalid!
+
+
+
+
+Set Port Range Duplicate!
+ is 
+
+
+The password setting is incorrect.
+The current password is incorrect.
+
+The password should be 4-32 characters long.
+The passwords do not match.
+
+Invalid file.
+The file is not compatible with your firmware.
+Schedule table is full.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Network
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Do not use the same username for the admin and guest accounts.
+
+
+
+Confirm
+
+
+
+
+
+
+
+
+
+
+
+
+
+Authentication
+
+
+
+
+
+
+
+
+Encryption
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Back
+
+
+
+
+
+
+
+
+
+
+
+
+Log Option
+System Activity
+Debug Information
+Attacks
+Dropped Packets
+Notice
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Access Control
+
+
+
+
+
+
+
+
+
+
+Wireless 2.4GHz
+Wireless 5GHz
+Guest Network
+
+
+
+User Setting
+
+
+
+
+
+SNMP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Action
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Logout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Start Time
+End Time
+
+
+
+
+
+
+
+Server Name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Log in as an administrator.
+Transfer Logs
+Syslog Server
+Copy Logs to Attached USB Device
+Transfer Logs to Syslog Server
+Log
+Update Firmware
+Update firmware from
+a file on your PC
+a file on an attached USB device
+Firmware Update File
+Update
+
+No USB device connected.
+
+
+
+
+Updating...
+Firmware updated.
+Save/Restore Settings
+Restore Method
+Using your PC
+Using your USB device
+Restoring...
+Restoring...
+Restored.
+Date and Time
+Date and Time Settings
+Local Time
+Year
+Month
+Day
+Hours
+Minutes
+Seconds
+Acquire Current Time from Your PC
+Use NTP
+Update Interval
+Hours
+Username and Password
+Administrator Name
+Administrator Password
+Password
+Management Protocol
+HTTP
+HTTPS
+TELNET
+SSH
+SNMP Version
+SNMP Get Community
+SNMP Set Community
+
+
+SNMP Trap
+SNMP Trap Manager
+SNMP Trap Community
+Initialize
+Restart
+
+Wired LAN Port Settings
+Wired LAN Port
+Speed & Duplex
+MDI
+Wired Port
+10 Mbps Half-Duplex
+10 Mbps Full-Duplex
+100 Mbps Half-Duplex
+100 Mbps Full-Duplex
+1000 Mbps Full-Duplex
+
+VLAN
+VLAN Interface
+
+VLAN Mode
+VLAN ID
+Untagged Port
+Tagged Port
+
+
+DHCP Client
+From DHCP
+Primary Address
+Secondary Address
+Management VLAN
+
+
+LAN Settings
+LAN Port
+Wireless Settings
+
+Wireless 2.4GHz
+Wireless 5GHz
+WMM
+Administration
+Diagnostic
+
+
+
+
+
+5GHz 11ac 11an
+2.4GHz 11bgn
+
+
+
+
+
+
+
+
+
+
+WPS
+WPS Security
+
+
+Change channel even if clients are connected
+Auto Channel Range
+
+Station Keepalive Interval
+Disable
+STA Separator
+SSID Separator
+Contention Slot
+Short
+Long
+BSS BasicRateSet
+Guard Interval
+Short GI
+Long GI
+Aggregation
+AMPDU
+AMSDU
+Multicast Rate
+Load Balancing
+
+
+
+Wireless Client Isolation
+SM Power Save
+Enabled (Dynamic)
+Enabled (Static)
+
+Authentication Method
+WPA2 Only
+WPA Only
+
+TKIP/AES Mixed Mode
+TKIP
+AES
+
+Connected Time
+WDS Mode
+WDS with AP
+Dedicated WDS
+Local MAC Address
+WDS Peer Settings
+
+Registered Access Point
+Duplicate MAC address.
+No Encryption
+
+
+Backup
+
+Priority Level
+Code
+Normal
+
+
+
+Not Control
+
+
+
+
+
+
+
+WMM Parameters of Access Point
+WMM Parameters of Station
+You have successfully logged out.
+Home
+Authorization error.
+Please enter the correct account with the notices below
+The user name should be \
+The alphabet's capital will be distinguished.
+Basic Settings
+
+Wireless Settings
+Admin
+
+
+No Authentication
+WPA2-EAP
+WPA/WPA2-EAP
+No Encryption
+
+
+Wireless Disabled
+
+
+
+
+
+Encryption Level (WEP/TKIP/AES)
+Wireless Security Settings
+Choose which wireless band to configure encryption for:
+Wireless Band
+5GHz and 2.4GHz
+2.4GHz
+5GHz
+Each wireless band may be configured simultaneously or separately.
+
+Select an encryption type:
+WEP is an older type of encryption that is compatible with most wireless devices. It is not considered secure and should not be used to protect sensitive data.
+TKIP is an encryption method which is somewhat more secure then WEP.
+AES is the most secure wireless encryption currently available. It is highly recommended if all your clients support it.
+WPA-PSK and WPA2-PSK use a password (pre-shared key) to authenticate wireless clients.
+WPA-PSK/WPA2-PSK
+WPA/WPA2 Mixed Mode-PSK
+
+MAC RADIUS Authentication
+
+IEEE802.1x/EAP
+
+
+
+WPA/WPA2 mixed mode-EAP
+
+
+
+Wireless Settings
+You may configure basic settings for the 2.4GHz and 5GHz bands separately.
+
+DFS may automatically change your wireless channel if critical networks such as meteorological radar require the 5GHz band.
+Cannot log in because someone is already logged in.
+
+
+VLAN Mode/ID
+
+No WDS entries.
+
+Product Name
+Management VLAN ID
+Transmit Power
+WDS Settings (2.4GHz)
+WDS Settings (5GHz)
+
+Select a file.
+Tx
+Rx
+Enter a shared secret.
+
+RADIUS Server (2.4GHz)
+Secondary RADIUS Server
+RADIUS Server (5GHz)
+QoS Configuration
+QoS
+WMM-EDCA Settings
+System Information
+LED Settings
+Power LED
+Wired LED
+
+USB LED
+WAN LED
+Diag LED
+LED Settings
+RADIUS
+Encrypt the configuration file with a password.
+Open file with password.
+Password
+File not found in USB.
+Filename
+Target
+Version
+Size
+
+
+IP Address Assignment
+No more than 32 files can be displayed.
+
+
+Invalid VLAN ID.
+Boot from
+USB device
+Internal memory
+WPS 2.0 will be disabled if TKIP is used.
+WPS 2.0 will be disabled if SSID is not broadcast.
+WPS 2.0 will be disabled if WEP is used.
+Security is not yet configured. Continue?
+The PIN code should contain 4 or 8 numbers.
+Generate PIN
+Admin Tools
+
+
+
+
+
+
+
+
+Invalid character.
+ASCII
+Key Renewal Interval
+second(s)
+Session Timeout
+Error: The username may contain 4 to 16 characters.
+ERROR: Backup failed
+WPS will use 2.4GHz
+WPS will use 5GHz.
+Shared Secret
+NTP is not configured.
+Use MAC address
+Use the following password
+
+
+Syslog server is not configured.
+Use 2.4GHz (5GHz will be disabled)
+Use 5GHz (2.4GHz will be disabled)
+Disable Wireless
+Authenticating by RADIUS server with each wireless client's MAC address as its username.
+
+Additional Authentication
+No additional authentication
+MAC address filters
+MAC filter & MAC RADIUS authentication
+MAC RADIUS authentication
+MAC RADIUS Password
+Wireless
+
+
+
+
+
+
+Rate
+Rate Set
+Basic Rate
+Select at least 1 Basic Rate.
+Connected
+Disconnected
+User-Defined
+The community name should be 4-32 characters long.
+Refresh
+
+
+
+Please wait...
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.4GHz
+5GHz
+
+
+
+Enter at least one MAC address.
+Proxy ARP
+Proxy ARP Aging Time
+IGMP Snooping
+Snooping Protocol
+IPv4 (IGMP)
+IPv6 (MLD)
+I'm Here
+Wireless Monitor
+
+
+Bridge
+
+PMK Caching
+PMK Caching Inter-AP Authentication
+Shared secret
+Shared secret may contain 6-32 characters.
+BPDU Forward
+
+Use from shared secret
+Duration of Sound
+
+Enter the MAC RADIUS password.
+
+
+
+Aging Time
+Bridge Priority
+Forward Delay
+
+Max Age
+Transmit Hold Count
+Auto Edge
+Bridge Port Settings
+Port Priority
+Path Cost
+Edge Port
+Point to Point
+Port
+Auto-Select
+Add MAC Addresses
+EZ Analyzer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+USB
+
+
+Device
+Current
+No USB device installed.
+No USB device found.
+Dismount
+
+
+
+Accounting
+Accounting Port
+
+
+
+
+
+
+
+
+
+
+minute(s)
+
+Sound Buzzer
+Disabled
+To use the MAC address filter, you may need to disable the WPS.
+number
+Authentification failed.
+Authentification succeeded.
+Please check whether you received the authentication email. If not, wait for 10 minutes and re-enter your email.
+ID and password has been sent.
+E-mail Authentication
+%s1 conflict with %s2.
+Invalid %s address! It should be located in the same subnet as current IP address.
+Invalid guest network client IP range! The guest end IP should be greater than guest start IP.
+Sender E-mail
+SMTP Server Address
+SMTP Server Port
+Account
+To access the Internet, e-mail registration is required. If you have a valid ID, please enter your  ID and password.
+If you want to get a new ID, please register your e-mail address. The ID and password will be e-mailed to you.
+E-mail
+SSID select
+Guest
+Neighbor Setting
+Neighbor AP Detection
+Done
+Traffic Shaping
+Limited Rate
+E-mail Authentication allows 8 users. All accounts are full.
+Administrator Device's MAC
+
+Day of Week
+Ethernet
+IP address is invalid!
+ID should not be blank
+Password should not be blank
+Sender email address should not be blank
+SMTP Server address should not be blank
+The range of SMTP Server Port is 1 ~ 65535.
+The filename should be *.cfg.
+False AP
+The range of limit rate is 100 ~ 43000.
+FTPD
+TFTPD
+Either HTTPD or HTTPSD must be selected.
+Internal Server
+EAP Internal Authentication
+EAP Certificate File Format
+EAP Certificate File
+Password of EAP Certificate File
+Shared Secret
+Session-Timeout
+Termination-Action
+Reauthenication (RADIUS-Request)
+Not-Reauthenication (Default)
+Not-Send
+Shared secret may contain 1-128 characters.
+The range of Session Timeout is 0 ~ 86400.
+The filename should be *.pfx/*.p12
+RADIUS Accounts
+Add/Edit User Registration List
+User Registration List
+Enter at least one user.
+User may contain 4-16 characters.
+Password may contain 6-32 characters.
+User Name
+Customize
+Edit User Registration List
+Upload
+Please upload correct EAP Certificate File
+The length of EAP Certificate File may contain 5-64 characters.
+
+Password of EAP Certificate File is wrong.
+Information
+Network Settings
+Management
+Wireless Clients
+Vendor
+No wireless client
+Unknown
+No MAC Address entries.
+No user entries
+RADIUS Settings
+Internal
+External
+RADIUS Type
+Set Username Duplicate!
+
+Restore Settings from PC
+Restore Settings from USB
+Save Settings to PC
+Save Settings to USB
+Save/Restore Method
+Firmware Location
+Update firmware from PC
+Update firmware from USB
+Using Device
+Syslog Server Settings
+Scan
+Export
+Channel %s only support 20-MHz channel bandwidth.
+Channel %s not support 80-MHz channel bandwidth.
+Refresh time
+Auto Refresh time
+second
+Manual Refresh
+You can click Scan button to start.
+Accesspoints
+Channel Survey result
+Back Ground
+Best Effort
+Video
+Voice
+Station idle timeout
+SSID #16 will be used for WDS.
+WAN-side IP Address
+Profile List
+PPP over Ethernet
+Login Method
+Service
+MTU
+(512<=MTU Value<=1492)
+Connection Type
+Keep connection
+Automatic Connect/Disconnect
+Manual Connect/Disconnect
+Connect
+Disconnect
+(1-1000 Minutes)
+Static IP Address
+Dynamic IP Address
+WAN Status
+Attain IP Protocol
+Primary DNS
+Secondary DNS
+(optional)
+Invalid IP address! It should be located in the same subnet of current IP address.
+Hostname
+Wireless Mode
+Sitesuvery
+WAN-side
+LAN-side
+Lan IP Address
+WAN IP Address
+DMZ
+Dos
+Access Control
+URL Filter
+NAT
+Port Forward
+Virtual Server
+Special Application
+ALG
+UpnP
+Quality of Service
+Syslog E-mail Settings
+E-mail Logs
+Receiver E-mail
+Receiver email address should not be blank
+Account should not be blank
+Password should not be blank
+Ping Test
+Destination Address
+Execute
+Request timeout.
+Enter a hostname or an IP address.
+Stop
+Result
+Interval
+E-mail Subject
+DHCP Clients
+DHCP Client Table
+No DHCP client
+Wireless Schedule
+The End Time cannot precede the Start Time.
+The End Time cannot equal to the Start Time.
+At least one item should be enabled.
+This function will not work until date and time are set.
+Enable the wireless network during the following schedules.
+LAN-side DNS Servers
+The maximum allowable total size is 640 KB.
+Traffic Shaping
+Traffic Shaping for ssid
+Unlimited
+Maximum
+Down Link
+Up Link
+IP Devices
+Quick Setup
+The range of limit rate is 0 ~ 1024.
+Reboot Schedule
+Reboot Time
+Enabled Schedule Table
+Rebooted schedule will not work until time is set by NTP server.
+No schedule entries
+Schedule List
+Select at least one SSID.
+AP Array

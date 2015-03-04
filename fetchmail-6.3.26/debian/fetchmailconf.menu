@@ -1,7 +1,0 @@
-?package(fetchmailconf):needs="x11"\
-	section="Applications/System/Administration"\
-	hints="Mail,Admin"\
-	title="fetchmailconf"\
-	longtitle="Configure fetchmail"\
-	icon="/usr/share/pixmaps/fetchmailconf.xpm"\
-	command="/usr/bin/fetchmailconf"

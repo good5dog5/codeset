@@ -1,0 +1,361 @@
+﻿Home
+Wizard
+LAN
+Half hour
+One hour
+Two hours
+Half day
+One day
+Two days
+One week
+Two weeks
+Forever
+The IP address has been changed. Reconnect with the new IP address.
+Invalid domain name.
+IP Address
+DHCP Client Starting IP Address
+Invalid starting IP address.
+DHCP Client Ending IP Address
+Invalid DHCP client ending IP address.
+Invalid DHCP client IP address range.\nEnding IP address should be greater than starting IP address.
+Subnet Mask
+Disabled
+Enabled
+Lease Time
+DHCP Server
+Starting IP Address
+Ending IP Address
+Domain Name
+Apply
+Cancel
+Active Clients
+Channel
+Security
+Disable
+Zone Edit
+MAC Address
+Default Gateway
+Refresh
+Operation Mode
+Save
+AP Mode
+Repeater Mode
+AP Controller Mode
+Enable
+Managed AP mode
+Band
+Enable
+Disable
+Authentication Type
+Broadcast SSID
+Protection
+Enter an SSID.
+The pre-shared key should contain at least 8 alphanumeric characters.
+The pre-shared key should contain no more than 64 alphanumeric characters.
+Encryption
+Key Length
+Key Type
+Default Key
+Key
+WPA Type
+Characters
+Password
+Delete Selected
+Delete All
+Reset
+Add
+Clone
+Static IP Address
+seconds
+The MAC address should contain 12 hexadecimal characters (0-9 and a-f).
+Invalid URL.
+Type
+SSID
+Password
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+Select a file.
+Continue?
+During the update, the product will be unresponsive for about a minute.  Please do not turn off or unplug the product.
+Save Settings
+Restore Settings
+Restore
+Previous
+SSID
+Encryption Type
+Cannot add new entry because the table is full.
+Delete selected entry?
+Delete all entries?
+This field cannot be empty.
+MAC address error
+LAN-side IP Address
+%s value is wrong.
+%s value is wrong.
+%s value is wrong.
+%s value is wrong.
+%s value is wrong.
+Invalid time range.
+Signal
+You must select at least one entry!
+You can select only one entry.
+Time Zone
+NTP Time Server
+Fragment Threshold
+RTS Threshold
+Beacon Interval
+DTIM Period
+Pre-shared
+Wireless
+Open
+Shared Key
+Edit
+Auto
+Auto Channel
+Preamble Type
+Channel Bandwidth
+Tx Power
+WPA-PSK
+64-bit
+128-bit
+Auto Channel Interval
+Invalid IP address.
+Invalid subnet mask.
+The filename should be *.bin.
+DNS Servers
+Primary DNS Server
+Secondary DNS Server
+User-Defined
+None
+Passphrase
+Hex
+Eniwetok, Kwajalein, International Date Line West
+Midway Island, Samoa
+Hawaii
+Alaska
+Pacific Time (US & Canada); Tijuana
+Arizona
+Chihuahua, La Paz, Mazatian
+Mountain Time (US & Canada)
+Central America
+Central Time (US & Canada)
+Guadalajara, Mexico City, Monterrey
+Saskatchewan
+Bogota, Lima, Quito
+Eastern Time (US & Canada)
+Indiana (East)
+Atlantic Time (Canada)
+Caracas, La Paz
+Santiago
+Newfoundland
+Brasilia
+Buenos Aires, Georgetown
+Greenland
+Mid-Atlantic
+Azores
+Cape Verde Is.
+Casablanca, Monrovia
+Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London
+Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
+Belgrade, Bratislava, Budapest, Ljubljana, Prague
+Brussels, Copenhagen, Madrid, Paris
+Sarajevo, Sofija, Warsaw, Zagreb, Skopje, Vilnius
+West Central Africa
+Athens, Istanbul, Minsk
+Bucharest
+Cairo
+Harare, Pretoria
+Helsinki, Riga, Tallinn
+Jerusalem
+Baghdad
+Kuwait, Riyadh
+Moscow, St. Petersburg, Volgograd
+Nairobi
+Tehran
+Abu Dhabi, Muscat
+Baku, Tbilisi, Yerevan
+Kabul
+Ekaterinburg
+Islamabad, Karachi, Tashkent
+Calcutta, Chennai, Mumbai, New Delhi
+Kathmandu
+Almaty, Novosibirsk
+Astana, Dhaka
+Sri, Jayawardenepura
+Rangoon
+Bangkok, Hanoi, Jakarta
+Krasnoyarsk
+Beijing,  Hong Kong
+Irkutsk, Ulaan Bataar
+Kuala Lumpur, Singapore
+Perth
+Taipei, Taiwan
+Osaka, Sapporo, Tokyo
+Seoul
+Yakutsk
+Adelaide
+Darwin
+Brisbane
+Canberra, Melbourne, Sydney
+Guam, Port Moresby
+Hobart
+Vladivostok
+Magadan, Solamon, New Caledonia
+Auckland, Wllington
+Fiji, Kamchatka, Marshall Is.
+WEP
+WPA-EAP
+A space is not a valid entry for %s.
+Input value is out of range. Please check the input range of each setting.
+Input value is out of range. Please check the input range of each setting.
+Input value is out of range. Please check the input range of each setting.
+Invalid port range. The first port value should be less than the second port value.
+Invalid MAC address. First byte should be an even number.
+The %s should be on the same subnet as the LAN-side IP address.
+Client IP Address
+Table is full.
+Subnet mask is invalid!
+Authentication
+Guest Network
+Action
+Logout
+Server Name
+No USB device connected.
+Using your PC
+Using your USB device
+Date and Time Settings
+Local Time
+Year
+Month
+Day
+Hours
+Minutes
+Seconds
+Acquire Current Time from Your PC
+Use NTP
+Update Interval
+Hours
+VLAN ID
+DHCP Client
+From DHCP
+Primary Address
+Secondary Address
+WMM
+Change channel even if clients are connected
+Disable
+STA Separator
+SSID Separator
+Contention Slot
+Short
+Long
+BSS BasicRateSet
+Guard Interval
+Short GI
+Long GI
+Aggregation
+AMPDU
+AMSDU
+Multicast Rate
+Load Balancing
+Wireless Client Isolation
+Authentication Method
+WPA2 Only
+WPA Only
+TKIP/AES Mixed Mode
+TKIP
+AES
+Duplicate MAC address.
+You have successfully logged out.
+Home
+Basic Settings
+No Authentication
+WPA2-EAP
+2.4GHz
+5GHz
+WPA/WPA2 Mixed Mode-PSK
+IEEE802.1x/EAP
+WPA/WPA2 mixed mode-EAP
+Select a file.
+Encrypt the configuration file with a password.
+Open file with password.
+File not found in USB.
+IP Address Assignment
+No more than 32 files can be displayed.
+Invalid character.
+ASCII
+Key Renewal Interval
+NTP is not configured.
+Use MAC address
+Use the following password
+Additional Authentication
+No additional authentication
+MAC address filters
+MAC filter & MAC RADIUS authentication
+MAC RADIUS authentication
+MAC RADIUS Password
+User-Defined
+Please wait...
+Enter at least one MAC address.
+minute(s)
+To use the MAC address filter, you may need to disable the WPS.
+E-mail Authentication
+%s1 conflict with %s2.
+Invalid %s address! It should be located in the same subnet as current IP address.
+Invalid guest network client IP range! The guest end IP should be greater than guest start IP.
+Sender E-mail
+SMTP Server Address
+SMTP Server Port
+Account
+Guest
+Traffic Shaping
+Limited Rate
+Administrator Device's MAC
+IP address is invalid!
+Sender email address should not be blank
+SMTP Server address should not be blank
+The range of SMTP Server Port is 1 ~ 65535.
+The range of limit rate is 100 ~ 43000.
+EAP Internal Authentication
+EAP Certificate File Format
+EAP Certificate File
+Password of EAP Certificate File
+Shared Secret
+Session-Timeout
+Termination-Action
+Reauthenication (RADIUS-Request)
+Not-Reauthenication (Default)
+Not-Send
+Shared secret may contain 1-128 characters.
+The range of Session Timeout is 0 ~ 86400.
+The filename should be *.pfx/*.p12
+RADIUS Accounts
+User Registration List
+Enter at least one user.
+User may contain 4-16 characters.
+User Name
+Upload
+The length of EAP Certificate File may contain 5-64 characters.
+Vendor
+Set Username Duplicate!
+Restore Settings from PC
+Restore Settings from USB
+Save Settings to PC
+Save Settings to USB
+Save/Restore Method
+Using Device
+Channel %s only support 20-MHz channel bandwidth.
+Channel %s not support 80-MHz channel bandwidth.
+Refresh time
+Auto Refresh time
+Manual Refresh
+Station idle timeout
+Login Method
