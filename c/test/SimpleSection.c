@@ -14,7 +14,7 @@ int main(void)
    static int static_var2;
 
    int a = 1;
-   int b;
+   int b = 0;
 
    func1( static_var + static_var2 + a + b );
 

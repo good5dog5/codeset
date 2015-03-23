@@ -6,7 +6,6 @@ char target[] = "showText";
 
 void extract(char * s)
 {
-   int now;
    int len = strlen(s);
    printf("%d\n", len);
 
@@ -31,7 +30,6 @@ void extract(char * s)
 int main(void)
 {
    char  read[150];
-   char * num;
    char c;
 
    do {

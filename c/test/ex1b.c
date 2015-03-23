@@ -3,8 +3,8 @@
 
 int main(void)
 {
-   while(1)
-      sleep(1000);
+   printf("cd /proc/%d\n", getpid());
+   getchar();
 
    return 0;
 }

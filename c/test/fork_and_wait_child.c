@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<sys/types.h>
 #include<unistd.h>
+#include<sys/wait.h>
 
 int spawn (char * program, char ** arg_list)
 {

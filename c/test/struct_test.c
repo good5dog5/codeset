@@ -14,7 +14,7 @@ int main(void)
    struct foo f={0};
 
    if(f.a->s) {
-      printf("%x\n",f.a->s);
+      printf("%s\n",f.a->s);
    }
    return 0;
 }

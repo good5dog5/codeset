@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 void hanoi(int disc, char * src, char * tmp, char * dst)
 {

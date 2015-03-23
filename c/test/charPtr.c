@@ -7,7 +7,7 @@ int main()
 
    printf("%c\n", *cptr);
    printf("%s\n", cptr);
-   printf("%d\n", cptr+1);
+   printf("%s\n", cptr+1);
 
    return 0;
 }

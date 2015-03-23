@@ -9,5 +9,6 @@ struct test {
 int main(void)
 {
    struct test * pt = NULL;
+   printf("%d\n", sizeof(pt));
    return 0;
 }

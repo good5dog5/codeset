@@ -1,3 +1,4 @@
+#define _SVID_SOURCE
 #include<stdio.h>
 #include<sys/shm.h>
 #include<sys/stat.h>

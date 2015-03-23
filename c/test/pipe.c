@@ -1,6 +1,8 @@
-#include<stdlib.h>
+#define _POSIX_SOURCE 
 #include<stdio.h>
+#include<stdlib.h>
 #include<unistd.h>
+#include<sys/types.h>
 
 /* Write COUNT copies of MESSAGE to STREAM, pausing for second between each. */
 
@@ -41,7 +43,7 @@ int main (void)
       /* This is the child porcess. close our copy of the write end of the file descriptor. */
       close (fds[1]);
       /* Convert the read file desciptor to a FILE object, and read from it. */
-      stream = fdopen (fds[0], "r");
+      stream = (FILE * )fdopen (fds[0], "r");
       reader (stream);
       close (fds[0]);
    }
@@ -50,7 +52,7 @@ int main (void)
       FILE * stream;
       /* Close our copy of the read end of the file descriptor. */
       close (fds[0]);
-      stream = fdopen (fds[1], "w");
+      stream = (FILE *) fdopen (fds[1], "w");
       writer ("Hello, world.", 100, stream);
       close (fds[1]);
    }
