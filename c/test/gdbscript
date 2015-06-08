@@ -1,0 +1,9 @@
+file ./twoDimentionArryIteration_byPointer
+b 9
+r
+define disp_var
+    display/i &test
+    display/d cnt
+    display/i ptr2
+    display/i ptr
+end

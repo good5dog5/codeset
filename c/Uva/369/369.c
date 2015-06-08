@@ -8,8 +8,9 @@ long long C(int n, int r)
 
    long long product = 1;
    int j;
-   long long a =3;
 
+   // c(5,3) = 5!/3!*2! = 5*4/2!
+   // = 4/1 * 5/2 
    for(j=1; j<=r; j++) {
       product = product * (n-r+j)/j;
    }
